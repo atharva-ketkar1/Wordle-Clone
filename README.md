@@ -1,6 +1,31 @@
-# Getting Started with Create React App
+# Wordle Clone
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+A clone of the classic word puzzle game Wordle, built using React.
+
+## Overview
+
+This project is a clone of the popular word puzzle game Wordle. Players attempt to guess a hidden five-letter word within a certain number of attempts. The game provides feedback on correct and incorrect letters, helping players narrow down their guesses.
+
+## How to Play
+
+1. Clone this repository to your local machine.
+2. Navigate to the project directory using your terminal.
+3. Install project dependencies by running `npm install`.
+4. Start the development server with `npm start`.
+5. Open [http://localhost:3000](http://localhost:3000) in your browser to play the game.
+6. Guess the hidden word by entering letters into the input boxes and clicking 'Enter'.
+7. The game will provide feedback on the correctness of your guess.
+8. Continue guessing until you either guess the word correctly or run out of attempts.
+
+### Example Gameplay
+
+Guessing a correct word:
+
+<img src="guess.png" alt="Guess Image" width="500">
+
+Getting the answer incorrect and seeing the replay menu:
+
+<img src="incorrect.png" alt="Incorrect Image" width="500">
 
 ## Available Scripts
 
@@ -8,63 +33,28 @@ In the project directory, you can run:
 
 ### `npm start`
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
-
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+Launches the development server and runs the app in development mode. Open [http://localhost:3000](http://localhost:3000) to view it in your browser. The page will reload automatically as you make changes.
 
 ### `npm test`
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+Runs the test suite in interactive watch mode. This helps you ensure the functionality of the game is intact.
 
 ### `npm run build`
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+Builds the production version of the app. It optimizes the build for better performance and prepares it for deployment.
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+## Customizing the Game
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+You can customize aspects of the game by modifying the codebase. The main components to consider are the game logic in `App.js`, the keyboard component in `Keyboard.js`, and the game board in `Board.js`.
 
-### `npm run eject`
+## Contributing
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
+Contributions are welcome! If you find any issues or have ideas for improvements, feel free to submit pull requests or open issues in this repository.
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+## Acknowledgments
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
+This project was inspired by the classic game Wordle. It was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
+## License
 
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+This project is licensed under the [MIT License](LICENSE).
